@@ -20,7 +20,7 @@ train, val = 60/20
   - Separate splits for supervised (RF) and unsupervised (IF) models
 
 ## Types of ML Models used
-  ##Supervised learning
+  ## Supervised learning
     -Random Forest
   - **Model**: `RandomForestClassifier(n_estimators=100, class_weight='balanced')`
       
@@ -36,7 +36,7 @@ train, val = 60/20
           
       - Weak recall on rare attacks
     
-  ##Unsupervised learning
+  ## Unsupervised learning
     -Isolation Forest
     -
     -Isolation Forest can flag abnormal network traffic that could signify a cyberattack or unauthorized access.
